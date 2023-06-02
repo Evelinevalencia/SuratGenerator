@@ -1,0 +1,124 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+/* End Fonts */
+
+main{
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.send-btn{
+    border: 1px solid #0047AA;
+    border-radius: 10px;
+    color: #0047AA;
+    font-weight: 500;
+    padding: 8px 0;
+    margin-top: 20px;
+}
+
+.send-btn:hover{
+    background: #0047AA;
+    transition: all;
+    color: white;
+}
+
+.mailico{
+    width: 22px;
+    margin-right: 5px;
+}
+
+.suratTable{
+    max-height: 400px !important; 
+    border: 1px solid black;
+    overflow: auto;
+    padding: 10px;
+}
+
+.staGreen{
+    color: #00AA13 !important;
+}
+.staRed{
+    color: #AA0000;
+}
+.staGrey{
+    color: #999999;
+}
+
+.boxBorder{
+    border-radius: 20px;
+}
+.maxButton{
+    max-width: 35%;
+}
+
+.btnSolid{
+    background: #0047AA;
+    color: white;
+    padding: 10px 20px;
+}
+.yth{
+    max-width: 35%;
+    margin: 20px 0;
+}
+.boxBorder{
+    max-height: 450px !important; 
+    overflow-y: scroll;
+}
+.buGreen{
+    background-color: #00AA13 !important;
+}
+.buRed{
+    background-color: #AA0000;
+}
+.buGrey{
+    background-color: #999999;
+}
+
+.sideSquare{
+    margin-bottom: 10px;
+}
+.squHead{
+    background-color: #AA0000;
+    color: white;
+}
+.squDesc{
+    border: 1px solid black;
+}
+.btnDownload{
+    width: 100%;
+    background-color: red;
+    display: block;
+}
+
+.down-btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+    padding: 8px 0;
+    margin-top: 20px;
+}
+
+.down-btn:hover{
+    background: black;
+    color: white;
+    transition: all;
+    color: white;
+}
+
+.alertNotif{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 15px;
+    background-color: white;
+}
+
+.alOn{
+    display: block;
+}
+.alOff{
+    display: none;
+}
